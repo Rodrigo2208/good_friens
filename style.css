@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(175, 182, 223);
-    color: rgb(80, 0, 80);
+    
+    background-image: linear-gradient(to right, #04BFBF, #026873);
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 10px 10px 10px #014249b4;
 }
 a{
+    text-align: center;
     font-size: 80%;
-    color: blue;
+    color: #000000;
 }
 button{
     background-color: rgb(255, 164, 45);
@@ -24,15 +34,23 @@ button a{
     font-family:cursive ;
 }
 p{
+    color: #a31919;
     font-size: 110%;
 }
 li{
+    color: #a31919;
     font-size: 110%;
 }
 h1{
+    text-shadow: 1px 1px 4px #ff0000;
+    color: #731010;
+    text-align: center;
     font-size: 260%;
 }
 h2{
+text-shadow: 1px 1px 3px #7c0c0c;
+    color: #a31919;
+    text-align: center;
     font-size: 200%;
 }
 h3 {
